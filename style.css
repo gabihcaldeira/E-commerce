@@ -3,11 +3,13 @@
 body {
     font-family: 'Inter', sans-serif;
     background-color: #F5F5F5;
+    padding: 0;
+    margin: 0;
 }
 
 nav {
     width: 100%;
-    height: 80px;
+    height: 65px;
     background-color: white;
 
 }
@@ -17,9 +19,9 @@ nav {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 80px;
+    height: 65px;
     box-sizing: border-box;
-    padding: 17px 148px 23px 130px;
+    padding: 17px 90px 23px;
 }
 
 h1 {
@@ -34,6 +36,7 @@ h1 {
 .links {
     display: flex;
     align-items: center;
+    font-size: 14px;
 }
 
 a {
@@ -67,14 +70,16 @@ a.promo:hover {
 .boxMain {
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 80%;
     flex-wrap: wrap;
+    margin: auto;
+
 
 }
 
 .boxItem {
-    width: 374px;
-    height: 500px;
+    width: 200px;
+    height: 325px;
     background-color: white;
     border-radius: 8px;
     margin: 10px;
@@ -85,28 +90,28 @@ a.promo:hover {
 
 .boxItem img {
     align-items: center;
-    width: 282px;
-    height: 207px;
+    width: 110px;
+    height: 100px;
     object-fit: contain;
     margin: auto;
 }
 
 p {
-    font-size: 16px;
+    font-size: 11px;
     font-weight: 600;
     line-height: 28px;
     padding: 0px 20px;
 }
 
 button {
-    width: 335px;
-    height: 48px;
+    width: 167px;
+    height: 35px;
     border-radius: 8px;
     color: white;
     background-color: #4C6EF5;
     margin: auto;
     border: none;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
 }
 
